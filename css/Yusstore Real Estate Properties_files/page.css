@@ -1,0 +1,61 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1589497836818-9ad2fa1df1a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxMzYwOTV8fGVufDB8fHx8fA%3D%3D&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0a0a50;
+}
+#navbar {
+    background-color: #fff;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+#profile {
+    float: right;
+    width: 150px;
+    margin-top: 40px;
+    padding-right: 100px;
+    border-radius: 50%;
+}
+h1 {
+padding-right: 300px;
+text-align: left;
+margin-top: 100px;
+color: #fff;
+font-size: 45pt;
+padding-top: 400px;
+}
+#logo {
+    margin-left: -150px;
+}
+.nav {
+    margin-left: -80px;
+    margin-top: 10px;
+}
+#icon {
+    color: #0a0a50;
+    margin-top: 20%;
+    padding-left: 50px;
+    display: flex;
+    justify-items:center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#welcome {
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin-top: 100px;
+}
+.about {
+    margin-top: 30px;
+    color: aliceblue;
+}
+#about {
+    margin-top: 30px;
+    color: aliceblue;  
+}

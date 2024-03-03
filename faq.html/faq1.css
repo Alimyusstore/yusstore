@@ -1,0 +1,57 @@
+body{
+    background: url(../css/Snapchat-1700092784.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.corridion {
+    background-color: #fff;
+    width: 65%;
+    padding: 30px;
+    border-bottom: 30px;
+}
+.corridion .corridion-text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.corridion .content-contsiner .question {
+    font-size: 20px;
+    padding: 18px 0px;
+    cursor: pointer;
+    border-bottom: 1px solid #000;
+     position: relative;
+}
+
+.corridion .content-container .question::after {
+    content: '+';
+    position: absolute;
+    right: -5px;
+}
+
+.corridion .content-container .answer {
+    font-size: 22px;
+    line-height: 1.5;
+    padding-top: 15px;
+    width: 100px;
+    height: 0px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+/*JavaScript Styling link*/
+.corridion .content-container.active .answer {
+    height: 150px;
+}
+
+.corridion .content-container.active .question {
+    font-size: 18px;
+    transition: .5s;
+}
+
+.corridion .content-container .question::after {
+    content: '-';
+    font-size: 30px;
+    transition: .5s;
+}
